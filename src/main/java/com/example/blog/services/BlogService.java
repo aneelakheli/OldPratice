@@ -47,11 +47,9 @@ public class BlogService {
     }
 
     public Iterable findAllBlog(String username) {
-//        return blogRepository.findAllByBlogName(blogname);
-//        use iterable hai.
-//       String name = "called find all function from repository";
-//        return  name;
-        return username;
+//        return blogRepository.findAllByBlogName();
+        return  name;
+
     }
 
     public void deleteBlogNameById(String blogId, String username) {
